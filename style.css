@@ -1,0 +1,377 @@
+
+body{
+    margin: 0px;
+}
+nav {
+
+	top: 0;
+	left: 0;
+  width: 100%;
+	height: 80px;
+	padding: 10px 100px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 8px 5px  rgba(201, 199, 199, 0.678);
+  background: rgb(255, 255, 255);
+	transition: .9s;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+  margin: -5px;
+  padding: 0;
+	display: flex;
+}
+
+nav ul li {
+   list-style: none;
+
+}
+
+nav ul li a {
+	line-height: 4;
+  color: black;
+	padding: 5px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+	transition: .3s;
+	letter-spacing: 2px;
+  margin: 1vh;
+}	
+
+nav ul li a{
+	outline: none;
+}
+
+nav.black ul li a{
+	color: #fff;
+  border-radius: 6px;
+}
+ 
+ nav ul li a:focus {
+  outline: none;
+ }
+ a:hover{
+  background: orangered;
+  color: #FFFFFF;
+  padding: 6%;
+  border-radius: 20%;
+}
+nav ul li a.active {
+	background: orangered;
+  color: #fff;
+	border-radius: 20px;
+}
+a.button {
+  margin: 20px;
+  font-size: 15px;
+}
+
+.imag{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  width: 16em;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 340%;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;transform: translateY(-50%);
+}
+/* animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinktextcursor 500ms steps(40) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 22em;
+  }
+}
+@keyframes blinktextcursor {
+  from {
+  border-right-color: rgba(255, 255, 255, 0.75)
+  }
+  to {
+    border-right-color: transparent;	
+  }
+}
+
+.image1{
+    width: 300px;
+    height: 400px;
+    float: left;
+    border: 3px solid black;
+    margin: 20% 60px;
+}
+.table2{
+    margin: 20% 20px;
+}
+.para1{
+    font-size: 65px;
+    color: black;
+    transition: .9s;
+    float: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+.para2{
+    font-size: 40px;
+    margin: 50px 0px;
+    transition: .9s;
+    font-weight: 600;
+    float: center;
+    color: rgb(238, 71, 11);
+}
+.para3{
+    font-size: 20px;
+    float: center;
+    margin: 50px 0px;
+    color: black;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 40px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.par12{
+    padding: 10%;
+    border: 2px solid black;
+    background-color: black;
+}
+.par13{
+    font-size: 65px;
+    color: white;
+    background-attachment: fixed;
+    margin: 0% 13vh;
+    float: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+.i *{
+    font-size:70px;
+    color:white;
+    margin: 10% 10%;
+    float: center;
+    transition: .9s;
+    cursor: pointer;
+}
+.i :hover{
+    color: #f4511e;
+    border: 3px solid rgba(0, 162, 255, 0.623);
+    background: rgba(0, 162, 255, 0.623);
+    padding: 5%;
+}
+
+.newtabs{
+    padding: 40px;
+    margin: 20px;
+}
+
+.den1{
+    text-align: center;
+    font-size: 4em;
+
+}
+.den2{
+    text-align: center;
+    font-size: 2em;
+    color: #f4511e;
+}
+ .ime1{
+     height: 170px;
+     cursor: pointer;
+     background-color: #f4511e;
+     transition: transform .2s;
+   }
+   .ime1:hover {
+    transform: scale(1.1);  
+  }
+
+.new14{
+    padding: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(85, 82, 82);
+}
+.large{
+   font-size: 4em;
+}
+.quar0{
+    font-size: 100%;
+    margin: -4%;
+    cursor: pointer;
+}
+.quar0 :hover{
+   color: #FFFFFF;
+}
+.quar1{
+    font-size: 100%;
+    margin: -14% 25%;
+    cursor: pointer;
+}
+.quar1 :hover{
+    color: #FFFFFF;
+}
+
+.quar2{
+    font-size: 100%;
+    margin: -14% 60%;
+    cursor: pointer;
+}
+.quar2 :hover{
+   color: #FFFFFF;
+}
+.quar3{
+    font-size: 100%;
+    margin: -16% 90%;
+    cursor: pointer;
+    transition: .9s;
+}
+.quar3 :hover{
+    color: #FFFFFF;
+}
+
+.new12{
+
+    padding: 5%;
+    background: black;
+
+}
+ .icon {
+    font-size:30px;
+    color:white;
+    margin: 0% 42%;
+    transition: .9s;
+    cursor: pointer;
+}
+.icon :hover{
+    color:orangered;
+    
+}
+.pa{
+    font-size:20px;
+    color:white;
+    text-align: center;
+}
+.contact{
+   background:  #f1f1f1;
+   padding: 10%;
+}
+.in12{
+    text-align: center;
+    margin: 0% 40%;
+    font-size: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.in13{
+    margin: 3% 40%;
+    font-size: 3vh;
+    text-align: center;
+    color: #f4511e;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.noth{
+    color: black;
+    font-size: 4vh;
+    margin: 20px -100px;
+    letter-spacing: 3px;
+}
+.inp1{
+    width: 115%;
+    padding: 16px;
+    margin: 10px -100px;
+}
+.butto {
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    padding: 15px 45px;
+    background: black;
+    margin-left: -100px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+.butto:hover {
+    background: orangered;
+    border: 2px solid orangered;
+}
+.men1{
+    padding: 13%;
+    background-color: grey;
+
+
+}
+.van1{
+    font-size: 8vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -5% -16%;
+    font-weight: 700;
+}
+.van2{
+    font-size: 3vh;
+    margin-left: -16%;
+}
+
+.nw1{
+    letter-spacing: 10px;
+    float: right;
+    margin: -21% -10%;
+}
+.btn1{
+    width: 100%;
+}
+.btn2{
+    width: 60%;
+}
+.btn3{
+    width: 120%;
+}
